@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		BE77A37A20BF7E170066DF6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE77A37920BF7E170066DF6F /* AppDelegate.swift */; };
-		BE77A37C20BF7E170066DF6F /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = BE77A37B20BF7E170066DF6F /* art.scnassets */; };
 		BE77A37E20BF7E170066DF6F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE77A37D20BF7E170066DF6F /* ViewController.swift */; };
 		BE77A38120BF7E170066DF6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE77A37F20BF7E170066DF6F /* Main.storyboard */; };
 		BE77A38320BF7E190066DF6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE77A38220BF7E190066DF6F /* Assets.xcassets */; };
 		BE77A38620BF7E190066DF6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE77A38420BF7E190066DF6F /* LaunchScreen.storyboard */; };
 		BE77A39120BF7E190066DF6F /* ARSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE77A39020BF7E190066DF6F /* ARSampleTests.swift */; };
 		BE77A39C20BF7E190066DF6F /* ARSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE77A39B20BF7E190066DF6F /* ARSampleUITests.swift */; };
+		BEDFF18A20C9937B0014C051 /* Drone.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDFF18920C9937B0014C051 /* Drone.swift */; };
+		BEDFF18C20C994670014C051 /* Drone.dae in Resources */ = {isa = PBXBuildFile; fileRef = BEDFF18B20C994670014C051 /* Drone.dae */; };
+		BEDFF18E20C994700014C051 /* Drone.scn in Resources */ = {isa = PBXBuildFile; fileRef = BEDFF18D20C994700014C051 /* Drone.scn */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +39,6 @@
 /* Begin PBXFileReference section */
 		BE77A37620BF7E170066DF6F /* ARSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE77A37920BF7E170066DF6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BE77A37B20BF7E170066DF6F /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		BE77A37D20BF7E170066DF6F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BE77A38020BF7E170066DF6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BE77A38220BF7E190066DF6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +50,9 @@
 		BE77A39720BF7E190066DF6F /* ARSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE77A39B20BF7E190066DF6F /* ARSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSampleUITests.swift; sourceTree = "<group>"; };
 		BE77A39D20BF7E190066DF6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEDFF18920C9937B0014C051 /* Drone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drone.swift; sourceTree = "<group>"; };
+		BEDFF18B20C994670014C051 /* Drone.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Drone.dae; sourceTree = "<group>"; };
+		BEDFF18D20C994700014C051 /* Drone.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Drone.scn; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +104,9 @@
 			isa = PBXGroup;
 			children = (
 				BE77A37920BF7E170066DF6F /* AppDelegate.swift */,
-				BE77A37B20BF7E170066DF6F /* art.scnassets */,
+				BEDFF18920C9937B0014C051 /* Drone.swift */,
+				BEDFF18B20C994670014C051 /* Drone.dae */,
+				BEDFF18D20C994700014C051 /* Drone.scn */,
 				BE77A37D20BF7E170066DF6F /* ViewController.swift */,
 				BE77A37F20BF7E170066DF6F /* Main.storyboard */,
 				BE77A38220BF7E190066DF6F /* Assets.xcassets */,
@@ -232,9 +238,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE77A37C20BF7E170066DF6F /* art.scnassets in Resources */,
 				BE77A38620BF7E190066DF6F /* LaunchScreen.storyboard in Resources */,
+				BEDFF18C20C994670014C051 /* Drone.dae in Resources */,
 				BE77A38320BF7E190066DF6F /* Assets.xcassets in Resources */,
+				BEDFF18E20C994700014C051 /* Drone.scn in Resources */,
 				BE77A38120BF7E170066DF6F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEDFF18A20C9937B0014C051 /* Drone.swift in Sources */,
 				BE77A37E20BF7E170066DF6F /* ViewController.swift in Sources */,
 				BE77A37A20BF7E170066DF6F /* AppDelegate.swift in Sources */,
 			);
@@ -434,14 +442,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 4Q92Z86L4P;
 				INFOPLIST_FILE = ARSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.softprodigy.ARSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ba596240-4fd4-4834-a513-f8702bceffb7";
+				PROVISIONING_PROFILE_SPECIFIER = SoftprodigyDevelopmentLatest;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -451,14 +463,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 4Q92Z86L4P;
 				INFOPLIST_FILE = ARSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.softprodigy.ARSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ba596240-4fd4-4834-a513-f8702bceffb7";
+				PROVISIONING_PROFILE_SPECIFIER = SoftprodigyDevelopmentLatest;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
